@@ -1,0 +1,43 @@
+/* 
+  localizable.strings
+  HiTaxi
+
+  Created by Nong Than on 4/3/17.
+  Copyright © 2017 Nong Than. All rights reserved.
+*/
+
+"TrangChu"="Home";
+"DanhSachTaxi"="Taxi Companies";
+"ThongBao"="Notification";
+"TaxiYeuThich"="Favourite";
+"UocTinhChiPhi"="Estimating price";
+"TaiKhoan"="Account";
+"CaiDat"="Setting";
+"GioiThieu"="Introduction";
+"LienHe"="Contact";
+"TaxiTotNhat"="Recommendation Taxi companies";
+"TaxiReNhat"="Inexpensive Taxi companies";
+"TaxiTeNhat"="Non-recommendation Taxi";
+"ThongBaoChatLuong"="Quality is marked by user's votes";
+"TaxiTot" = "Good Taxi";
+"TaxiRe" = "Cheap Taxi";
+
+"restartTitle" = "Thông Báo !";
+"restart" = "Ứng dụng sẽ được đóng lại bạn vui lòng mở lại app để thấy được sự thay đổi!";
+"close" = "Đồng Ý";
+"cancel" = "Hủy";
+
+"4cho" = "\t\t  4 Seats";
+"7cho" = "7 Seats";
+"giamocua" = "KM open: ";
+"giadau" = "25 KM first:  ";
+"giasau" = "25 KM after: ";
+"btnSendDataMap" = "Send address to map";
+"btnDangXuat" = "Logout";
+"btnupdatainfo" = "Update Info";
+"vuiLongNhapHoTen" = "Please enter your full name!";
+"vuiLongNhapsdt" = "Please enter your phone number!";
+"vuiLongNhapEmail" = "Please enter your email!";
+"vuiLongNhapDiaChi" = "Please enter address!";
+"Pricedetails" = "Price details";
+

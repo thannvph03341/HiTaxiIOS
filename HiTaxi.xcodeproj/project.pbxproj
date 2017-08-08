@@ -7,21 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F99FDFB3CEB2ABB5A2E4583 /* Pods_HiTaxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F3A2FBBA4BF4F8486F904 /* Pods_HiTaxi.framework */; };
+		AC001BFE1E92783C00A641D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC001C001E92783C00A641D3 /* Localizable.strings */; };
+		AC23BF271E4B594500298965 /* ThongBaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23BF261E4B594500298965 /* ThongBaoView.swift */; };
+		AC23BF291E4B59C300298965 /* UIViewExtensionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23BF281E4B59C300298965 /* UIViewExtensionsCell.swift */; };
+		AC23BF2D1E4B72C700298965 /* TaxiYeuThichView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23BF2C1E4B72C700298965 /* TaxiYeuThichView.swift */; };
+		AC23BF2F1E4B793500298965 /* UocTinhChiPhiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23BF2E1E4B793500298965 /* UocTinhChiPhiView.swift */; };
+		AC2B40E11E5A969D00049F64 /* GioiThieuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B40E01E5A969D00049F64 /* GioiThieuView.swift */; };
+		AC2B40E31E5A977500049F64 /* CaiDatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B40E21E5A977500049F64 /* CaiDatView.swift */; };
+		AC2B40E71E5A980300049F64 /* LienHeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B40E61E5A980300049F64 /* LienHeView.swift */; };
+		AC2B40E91E5A9D8000049F64 /* HanderChonLocHangTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B40E81E5A9D8000049F64 /* HanderChonLocHangTaxi.swift */; };
+		AC30A2C71E50713700DAB853 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30A2C61E50713700DAB853 /* DropMenuButton.swift */; };
+		AC32B1281E9523C90096F9F7 /* ThongBaoChiTiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32B1271E9523C90096F9F7 /* ThongBaoChiTiet.swift */; };
+		AC32B12A1E952C740096F9F7 /* UICellThongBao.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32B1291E952C740096F9F7 /* UICellThongBao.swift */; };
 		AC4523381E44C1AA0029AC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4523371E44C1AA0029AC8A /* AppDelegate.swift */; };
-		AC45233A1E44C1AA0029AC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4523391E44C1AA0029AC8A /* ViewController.swift */; };
 		AC45233D1E44C1AA0029AC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC45233B1E44C1AA0029AC8A /* Main.storyboard */; };
 		AC45233F1E44C1AA0029AC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC45233E1E44C1AA0029AC8A /* Assets.xcassets */; };
 		AC4523421E44C1AA0029AC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4523401E44C1AA0029AC8A /* LaunchScreen.storyboard */; };
+		AC45234A1E44C3070029AC8A /* TrangChu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4523491E44C3070029AC8A /* TrangChu.swift */; };
+		AC45234C1E44C4980029AC8A /* FunctionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45234B1E44C4980029AC8A /* FunctionExtension.swift */; };
+		AC45234E1E44DBFD0029AC8A /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45234D1E44DBFD0029AC8A /* NavigationMenu.swift */; };
+		AC58A9831EAFB3AB003FA437 /* ModelThongBao.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58A9821EAFB3AB003FA437 /* ModelThongBao.swift */; };
+		AC97609C1E4A05E900786C2F /* CellHangTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97609B1E4A05E900786C2F /* CellHangTaxi.swift */; };
+		AC97609E1E4A0B3D00786C2F /* ItemCellHangTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97609D1E4A0B3D00786C2F /* ItemCellHangTaxi.swift */; };
+		AC9760A21E4A260300786C2F /* DanhSachTaxiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9760A11E4A260300786C2F /* DanhSachTaxiView.swift */; };
+		AC9881F61E4CDEA8009E0D08 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9881F51E4CDEA8009E0D08 /* MapKit.framework */; };
+		AC9881F81E4CED84009E0D08 /* ViewPlaceAutocompile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9881F71E4CED84009E0D08 /* ViewPlaceAutocompile.swift */; };
+		AC9A4C171E6BE6F900EE8B9D /* SQLiteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A4C161E6BE6F900EE8B9D /* SQLiteConfig.swift */; };
+		AC9E898D1EACAE0500AF10EC /* DangNhapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E898C1EACAE0400AF10EC /* DangNhapDelegate.swift */; };
+		AC9E898F1EACAF6300AF10EC /* ModelNguoiDung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E898E1EACAF6300AF10EC /* ModelNguoiDung.swift */; };
+		ACB23ADA1E48C68E0033514C /* NavigationCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23AD91E48C68E0033514C /* NavigationCellMenu.swift */; };
+		ACD0CA8E1E9565CB004B0FCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACD0CA8D1E9565CB004B0FCF /* GoogleService-Info.plist */; };
+		ACD903561E5998E600B922C8 /* ModelTinhTien.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD903551E5998E600B922C8 /* ModelTinhTien.swift */; };
+		ACD903581E59EC0200B922C8 /* HanderGoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD903571E59EC0200B922C8 /* HanderGoi.swift */; };
+		ACD9035D1E59EFC300B922C8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD903591E59EFC300B922C8 /* Bolts.framework */; };
+		ACD9035E1E59EFC300B922C8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD9035A1E59EFC300B922C8 /* FBSDKCoreKit.framework */; };
+		ACD9035F1E59EFC300B922C8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD9035B1E59EFC300B922C8 /* FBSDKLoginKit.framework */; };
+		ACD903601E59EFC300B922C8 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD9035C1E59EFC300B922C8 /* FBSDKShareKit.framework */; };
+		ACD903621E59FB3C00B922C8 /* NavigationCellUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD903611E59FB3C00B922C8 /* NavigationCellUser.swift */; };
+		ACD903651E5A345500B922C8 /* TaiKhoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD903641E5A345500B922C8 /* TaiKhoanView.swift */; };
+		ACFD66FC1E5338D10064E37A /* TinhThanhModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD66FB1E5338D10064E37A /* TinhThanhModel.swift */; };
+		ACFD66FE1E533A7E0064E37A /* HangTaxiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD66FD1E533A7E0064E37A /* HangTaxiModel.swift */; };
+		ACFD67001E533F700064E37A /* ExtensionFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD66FF1E533F700064E37A /* ExtensionFunc.swift */; };
+		ACFD67021E5342320064E37A /* StringUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD67011E5342320064E37A /* StringUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3A2F7C9FD0B593FC003FC4 /* Pods-HiTaxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiTaxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiTaxi/Pods-HiTaxi.debug.xcconfig"; sourceTree = "<group>"; };
+		788F3A2FBBA4BF4F8486F904 /* Pods_HiTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC001BFA1E9277FC00A641D3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		AC001BFB1E9277FC00A641D3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AC001BFF1E92783C00A641D3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC001C011E92784E00A641D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC23BF261E4B594500298965 /* ThongBaoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThongBaoView.swift; sourceTree = "<group>"; };
+		AC23BF281E4B59C300298965 /* UIViewExtensionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsCell.swift; sourceTree = "<group>"; };
+		AC23BF2C1E4B72C700298965 /* TaxiYeuThichView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiYeuThichView.swift; sourceTree = "<group>"; };
+		AC23BF2E1E4B793500298965 /* UocTinhChiPhiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UocTinhChiPhiView.swift; sourceTree = "<group>"; };
+		AC2B40E01E5A969D00049F64 /* GioiThieuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GioiThieuView.swift; sourceTree = "<group>"; };
+		AC2B40E21E5A977500049F64 /* CaiDatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaiDatView.swift; sourceTree = "<group>"; };
+		AC2B40E61E5A980300049F64 /* LienHeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LienHeView.swift; sourceTree = "<group>"; };
+		AC2B40E81E5A9D8000049F64 /* HanderChonLocHangTaxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanderChonLocHangTaxi.swift; sourceTree = "<group>"; };
+		AC30A2C61E50713700DAB853 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenuButton.swift; sourceTree = "<group>"; };
+		AC32B1271E9523C90096F9F7 /* ThongBaoChiTiet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThongBaoChiTiet.swift; sourceTree = "<group>"; };
+		AC32B1291E952C740096F9F7 /* UICellThongBao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICellThongBao.swift; sourceTree = "<group>"; };
 		AC4523341E44C1AA0029AC8A /* HiTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4523371E44C1AA0029AC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC4523391E44C1AA0029AC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC45233C1E44C1AA0029AC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC45233E1E44C1AA0029AC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4523411E44C1AA0029AC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4523431E44C1AA0029AC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4523491E44C3070029AC8A /* TrangChu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrangChu.swift; sourceTree = "<group>"; };
+		AC45234B1E44C4980029AC8A /* FunctionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionExtension.swift; sourceTree = "<group>"; };
+		AC45234D1E44DBFD0029AC8A /* NavigationMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
+		AC58A9821EAFB3AB003FA437 /* ModelThongBao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelThongBao.swift; sourceTree = "<group>"; };
+		AC97609B1E4A05E900786C2F /* CellHangTaxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellHangTaxi.swift; sourceTree = "<group>"; };
+		AC97609D1E4A0B3D00786C2F /* ItemCellHangTaxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellHangTaxi.swift; sourceTree = "<group>"; };
+		AC9760A11E4A260300786C2F /* DanhSachTaxiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanhSachTaxiView.swift; sourceTree = "<group>"; };
+		AC9881F41E4CDE88009E0D08 /* HiTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HiTaxi.entitlements; sourceTree = "<group>"; };
+		AC9881F51E4CDEA8009E0D08 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC9881F71E4CED84009E0D08 /* ViewPlaceAutocompile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaceAutocompile.swift; sourceTree = "<group>"; };
+		AC9A4C161E6BE6F900EE8B9D /* SQLiteConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteConfig.swift; sourceTree = "<group>"; };
+		AC9E898C1EACAE0400AF10EC /* DangNhapDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangNhapDelegate.swift; sourceTree = "<group>"; };
+		AC9E898E1EACAF6300AF10EC /* ModelNguoiDung.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelNguoiDung.swift; sourceTree = "<group>"; };
+		ACB23AD91E48C68E0033514C /* NavigationCellMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCellMenu.swift; sourceTree = "<group>"; };
+		ACD0CA8D1E9565CB004B0FCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACD903551E5998E600B922C8 /* ModelTinhTien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTinhTien.swift; sourceTree = "<group>"; };
+		ACD903571E59EC0200B922C8 /* HanderGoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanderGoi.swift; sourceTree = "<group>"; };
+		ACD903591E59EFC300B922C8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		ACD9035A1E59EFC300B922C8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ACD9035B1E59EFC300B922C8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		ACD9035C1E59EFC300B922C8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		ACD903611E59FB3C00B922C8 /* NavigationCellUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCellUser.swift; sourceTree = "<group>"; };
+		ACD903641E5A345500B922C8 /* TaiKhoanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaiKhoanView.swift; sourceTree = "<group>"; };
+		ACFD66FB1E5338D10064E37A /* TinhThanhModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinhThanhModel.swift; sourceTree = "<group>"; };
+		ACFD66FD1E533A7E0064E37A /* HangTaxiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangTaxiModel.swift; sourceTree = "<group>"; };
+		ACFD66FF1E533F700064E37A /* ExtensionFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFunc.swift; sourceTree = "<group>"; };
+		ACFD67011E5342320064E37A /* StringUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUrl.swift; sourceTree = "<group>"; };
+		D2CDEB6802EE93F9F2E2BFBF /* Pods-HiTaxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiTaxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiTaxi/Pods-HiTaxi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD9035D1E59EFC300B922C8 /* Bolts.framework in Frameworks */,
+				ACD9035E1E59EFC300B922C8 /* FBSDKCoreKit.framework in Frameworks */,
+				ACD903601E59EFC300B922C8 /* FBSDKShareKit.framework in Frameworks */,
+				ACD9035F1E59EFC300B922C8 /* FBSDKLoginKit.framework in Frameworks */,
+				AC9881F61E4CDEA8009E0D08 /* MapKit.framework in Frameworks */,
+				0F99FDFB3CEB2ABB5A2E4583 /* Pods_HiTaxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89E149491945FDE671FDF5F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A3A2F7C9FD0B593FC003FC4 /* Pods-HiTaxi.debug.xcconfig */,
+				D2CDEB6802EE93F9F2E2BFBF /* Pods-HiTaxi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		975B1B4F9079343DA49DDC75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD903591E59EFC300B922C8 /* Bolts.framework */,
+				ACD9035A1E59EFC300B922C8 /* FBSDKCoreKit.framework */,
+				ACD9035B1E59EFC300B922C8 /* FBSDKLoginKit.framework */,
+				ACD9035C1E59EFC300B922C8 /* FBSDKShareKit.framework */,
+				AC9881F51E4CDEA8009E0D08 /* MapKit.framework */,
+				788F3A2FBBA4BF4F8486F904 /* Pods_HiTaxi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC001BF11E926B3B00A641D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC001C001E92783C00A641D3 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC23BF241E4B570B00298965 /* TaxiYeuThich */ = {
+			isa = PBXGroup;
+			children = (
+				AC23BF2C1E4B72C700298965 /* TaxiYeuThichView.swift */,
+			);
+			name = TaxiYeuThich;
+			sourceTree = "<group>";
+		};
+		AC23BF251E4B590A00298965 /* ThongBao */ = {
+			isa = PBXGroup;
+			children = (
+				AC23BF261E4B594500298965 /* ThongBaoView.swift */,
+				AC58A9821EAFB3AB003FA437 /* ModelThongBao.swift */,
+			);
+			name = ThongBao;
+			sourceTree = "<group>";
+		};
+		AC23BF2A1E4B59DA00298965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC23BF281E4B59C300298965 /* UIViewExtensionsCell.swift */,
+				ACFD66FF1E533F700064E37A /* ExtensionFunc.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AC23BF2B1E4B72A300298965 /* UocTinhChiPhi */ = {
+			isa = PBXGroup;
+			children = (
+				AC23BF2E1E4B793500298965 /* UocTinhChiPhiView.swift */,
+				AC9881F71E4CED84009E0D08 /* ViewPlaceAutocompile.swift */,
+				ACD903571E59EC0200B922C8 /* HanderGoi.swift */,
+			);
+			name = UocTinhChiPhi;
+			sourceTree = "<group>";
+		};
+		AC2B40DF1E5A968700049F64 /* GioiThieu */ = {
+			isa = PBXGroup;
+			children = (
+				AC2B40E01E5A969D00049F64 /* GioiThieuView.swift */,
+			);
+			name = GioiThieu;
+			sourceTree = "<group>";
+		};
+		AC2B40E41E5A977A00049F64 /* CaiData */ = {
+			isa = PBXGroup;
+			children = (
+				AC2B40E21E5A977500049F64 /* CaiDatView.swift */,
+			);
+			name = CaiData;
+			sourceTree = "<group>";
+		};
+		AC2B40E51E5A97F700049F64 /* LienHe */ = {
+			isa = PBXGroup;
+			children = (
+				AC2B40E61E5A980300049F64 /* LienHeView.swift */,
+			);
+			name = LienHe;
+			sourceTree = "<group>";
+		};
+		AC30A2C51E50711A00DAB853 /* DropMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				AC30A2C61E50713700DAB853 /* DropMenuButton.swift */,
+			);
+			name = DropMenuButton;
+			sourceTree = "<group>";
+		};
+		AC32B1261E95239B0096F9F7 /* ObjectThongBao */ = {
+			isa = PBXGroup;
+			children = (
+				AC32B1271E9523C90096F9F7 /* ThongBaoChiTiet.swift */,
+				AC32B1291E952C740096F9F7 /* UICellThongBao.swift */,
+			);
+			name = ObjectThongBao;
+			sourceTree = "<group>";
+		};
 		AC45232B1E44C1A90029AC8A = {
 			isa = PBXGroup;
 			children = (
 				AC4523361E44C1AA0029AC8A /* HiTaxi */,
 				AC4523351E44C1AA0029AC8A /* Products */,
+				89E149491945FDE671FDF5F6 /* Pods */,
+				975B1B4F9079343DA49DDC75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +251,90 @@
 		AC4523361E44C1AA0029AC8A /* HiTaxi */ = {
 			isa = PBXGroup;
 			children = (
+				AC32B1261E95239B0096F9F7 /* ObjectThongBao */,
+				AC001BF11E926B3B00A641D3 /* Resources */,
+				AC9A4C151E6BE6C100EE8B9D /* SQLiteConfig */,
+				AC2B40E51E5A97F700049F64 /* LienHe */,
+				AC2B40DF1E5A968700049F64 /* GioiThieu */,
+				ACD903631E5A343D00B922C8 /* TaiKhoanView */,
+				ACFD66FA1E5338B70064E37A /* ObjectModel */,
+				AC30A2C51E50711A00DAB853 /* DropMenuButton */,
+				AC9881F41E4CDE88009E0D08 /* HiTaxi.entitlements */,
+				AC23BF2B1E4B72A300298965 /* UocTinhChiPhi */,
+				AC23BF2A1E4B59DA00298965 /* Extensions */,
+				AC23BF251E4B590A00298965 /* ThongBao */,
+				AC23BF241E4B570B00298965 /* TaxiYeuThich */,
+				AC9760A01E4A25C500786C2F /* DanhSachTaxi */,
+				AC97609F1E4A0B7100786C2F /* CellTrangChu */,
+				ACB23AD81E48C66F0033514C /* navigationmenu */,
 				AC4523371E44C1AA0029AC8A /* AppDelegate.swift */,
-				AC4523391E44C1AA0029AC8A /* ViewController.swift */,
 				AC45233B1E44C1AA0029AC8A /* Main.storyboard */,
 				AC45233E1E44C1AA0029AC8A /* Assets.xcassets */,
 				AC4523401E44C1AA0029AC8A /* LaunchScreen.storyboard */,
 				AC4523431E44C1AA0029AC8A /* Info.plist */,
+				ACD0CA8D1E9565CB004B0FCF /* GoogleService-Info.plist */,
+				AC4523491E44C3070029AC8A /* TrangChu.swift */,
+				AC45234B1E44C4980029AC8A /* FunctionExtension.swift */,
+				AC2B40E41E5A977A00049F64 /* CaiData */,
 			);
 			path = HiTaxi;
+			sourceTree = "<group>";
+		};
+		AC97609F1E4A0B7100786C2F /* CellTrangChu */ = {
+			isa = PBXGroup;
+			children = (
+				AC97609D1E4A0B3D00786C2F /* ItemCellHangTaxi.swift */,
+				AC97609B1E4A05E900786C2F /* CellHangTaxi.swift */,
+			);
+			name = CellTrangChu;
+			sourceTree = "<group>";
+		};
+		AC9760A01E4A25C500786C2F /* DanhSachTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				AC9760A11E4A260300786C2F /* DanhSachTaxiView.swift */,
+				AC2B40E81E5A9D8000049F64 /* HanderChonLocHangTaxi.swift */,
+			);
+			name = DanhSachTaxi;
+			sourceTree = "<group>";
+		};
+		AC9A4C151E6BE6C100EE8B9D /* SQLiteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A4C161E6BE6F900EE8B9D /* SQLiteConfig.swift */,
+			);
+			name = SQLiteConfig;
+			sourceTree = "<group>";
+		};
+		ACB23AD81E48C66F0033514C /* navigationmenu */ = {
+			isa = PBXGroup;
+			children = (
+				AC45234D1E44DBFD0029AC8A /* NavigationMenu.swift */,
+				ACB23AD91E48C68E0033514C /* NavigationCellMenu.swift */,
+				ACD903611E59FB3C00B922C8 /* NavigationCellUser.swift */,
+			);
+			name = navigationmenu;
+			sourceTree = "<group>";
+		};
+		ACD903631E5A343D00B922C8 /* TaiKhoanView */ = {
+			isa = PBXGroup;
+			children = (
+				ACD903641E5A345500B922C8 /* TaiKhoanView.swift */,
+				AC9E898C1EACAE0400AF10EC /* DangNhapDelegate.swift */,
+				AC9E898E1EACAF6300AF10EC /* ModelNguoiDung.swift */,
+			);
+			name = TaiKhoanView;
+			sourceTree = "<group>";
+		};
+		ACFD66FA1E5338B70064E37A /* ObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD66FB1E5338D10064E37A /* TinhThanhModel.swift */,
+				ACFD66FD1E533A7E0064E37A /* HangTaxiModel.swift */,
+				ACFD67011E5342320064E37A /* StringUrl.swift */,
+				ACD903551E5998E600B922C8 /* ModelTinhTien.swift */,
+			);
+			name = ObjectModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4523461E44C1AA0029AC8A /* Build configuration list for PBXNativeTarget "HiTaxi" */;
 			buildPhases = (
+				813690E74BCB50770E123CAE /* [CP] Check Pods Manifest.lock */,
 				AC4523301E44C1A90029AC8A /* Sources */,
 				AC4523311E44C1A90029AC8A /* Frameworks */,
 				AC4523321E44C1A90029AC8A /* Resources */,
+				22D3DABB33C1842C767ED0D3 /* [CP] Embed Pods Frameworks */,
+				1414A333D08D6A60DDED4694 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +374,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DC367NBJJ2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -106,8 +393,8 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = AC45232B1E44C1A90029AC8A;
 			productRefGroup = AC4523351E44C1AA0029AC8A /* Products */;
@@ -125,6 +412,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4523421E44C1AA0029AC8A /* LaunchScreen.storyboard in Resources */,
+				AC001BFE1E92783C00A641D3 /* Localizable.strings in Resources */,
+				ACD0CA8E1E9565CB004B0FCF /* GoogleService-Info.plist in Resources */,
 				AC45233F1E44C1AA0029AC8A /* Assets.xcassets in Resources */,
 				AC45233D1E44C1AA0029AC8A /* Main.storyboard in Resources */,
 			);
@@ -132,23 +421,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1414A333D08D6A60DDED4694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiTaxi/Pods-HiTaxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22D3DABB33C1842C767ED0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiTaxi/Pods-HiTaxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813690E74BCB50770E123CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC4523301E44C1A90029AC8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC45233A1E44C1AA0029AC8A /* ViewController.swift in Sources */,
+				AC2B40E71E5A980300049F64 /* LienHeView.swift in Sources */,
+				AC9E898F1EACAF6300AF10EC /* ModelNguoiDung.swift in Sources */,
+				AC45234E1E44DBFD0029AC8A /* NavigationMenu.swift in Sources */,
+				AC32B12A1E952C740096F9F7 /* UICellThongBao.swift in Sources */,
+				AC9A4C171E6BE6F900EE8B9D /* SQLiteConfig.swift in Sources */,
+				AC2B40E91E5A9D8000049F64 /* HanderChonLocHangTaxi.swift in Sources */,
+				AC97609E1E4A0B3D00786C2F /* ItemCellHangTaxi.swift in Sources */,
+				AC2B40E11E5A969D00049F64 /* GioiThieuView.swift in Sources */,
+				ACFD67001E533F700064E37A /* ExtensionFunc.swift in Sources */,
+				ACD903651E5A345500B922C8 /* TaiKhoanView.swift in Sources */,
+				AC23BF2D1E4B72C700298965 /* TaxiYeuThichView.swift in Sources */,
+				ACFD66FE1E533A7E0064E37A /* HangTaxiModel.swift in Sources */,
+				AC30A2C71E50713700DAB853 /* DropMenuButton.swift in Sources */,
+				ACFD67021E5342320064E37A /* StringUrl.swift in Sources */,
+				AC97609C1E4A05E900786C2F /* CellHangTaxi.swift in Sources */,
+				AC23BF2F1E4B793500298965 /* UocTinhChiPhiView.swift in Sources */,
+				AC45234C1E44C4980029AC8A /* FunctionExtension.swift in Sources */,
+				AC58A9831EAFB3AB003FA437 /* ModelThongBao.swift in Sources */,
+				ACFD66FC1E5338D10064E37A /* TinhThanhModel.swift in Sources */,
+				AC23BF271E4B594500298965 /* ThongBaoView.swift in Sources */,
+				AC9760A21E4A260300786C2F /* DanhSachTaxiView.swift in Sources */,
 				AC4523381E44C1AA0029AC8A /* AppDelegate.swift in Sources */,
+				AC45234A1E44C3070029AC8A /* TrangChu.swift in Sources */,
+				AC9E898D1EACAE0500AF10EC /* DangNhapDelegate.swift in Sources */,
+				AC32B1281E9523C90096F9F7 /* ThongBaoChiTiet.swift in Sources */,
+				ACD903581E59EC0200B922C8 /* HanderGoi.swift in Sources */,
+				ACD903561E5998E600B922C8 /* ModelTinhTien.swift in Sources */,
+				AC23BF291E4B59C300298965 /* UIViewExtensionsCell.swift in Sources */,
+				AC2B40E31E5A977500049F64 /* CaiDatView.swift in Sources */,
+				ACB23ADA1E48C68E0033514C /* NavigationCellMenu.swift in Sources */,
+				ACD903621E59FB3C00B922C8 /* NavigationCellUser.swift in Sources */,
+				AC9881F81E4CED84009E0D08 /* ViewPlaceAutocompile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AC001C001E92783C00A641D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC001BFF1E92783C00A641D3 /* vi */,
+				AC001C011E92784E00A641D3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		AC45233B1E44C1AA0029AC8A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AC45233C1E44C1AA0029AC8A /* Base */,
+				AC001BFA1E9277FC00A641D3 /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,6 +534,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AC4523411E44C1AA0029AC8A /* Base */,
+				AC001BFB1E9277FC00A641D3 /* vi */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -204,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -217,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -247,7 +627,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -257,27 +637,45 @@
 		};
 		AC4523471E44C1AA0029AC8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3A2F7C9FD0B593FC003FC4 /* Pods-HiTaxi.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HiTaxi/HiTaxi.entitlements;
 				DEVELOPMENT_TEAM = DC367NBJJ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HiTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hitaxi.HiTaxi;
+				PRODUCT_BUNDLE_IDENTIFIER = hiappvn.com.hitaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC4523481E44C1AA0029AC8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CDEB6802EE93F9F2E2BFBF /* Pods-HiTaxi.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HiTaxi/HiTaxi.entitlements;
 				DEVELOPMENT_TEAM = DC367NBJJ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HiTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hitaxi.HiTaxi;
+				PRODUCT_BUNDLE_IDENTIFIER = hiappvn.com.hitaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +698,7 @@
 				AC4523481E44C1AA0029AC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

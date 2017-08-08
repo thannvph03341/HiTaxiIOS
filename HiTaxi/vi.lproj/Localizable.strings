@@ -1,0 +1,41 @@
+/* 
+  localizable.strings
+  HiTaxi
+
+  Created by Nong Than on 4/3/17.
+  Copyright © 2017 Nong Than. All rights reserved.
+*/
+
+"TrangChu"="Trang chủ";
+"DanhSachTaxi"="Danh sách";
+"ThongBao"="Thông Báo";
+"TaxiYeuThich"="Taxi yêu thích";
+"UocTinhChiPhi"="Ước tính chi phí";
+"TaiKhoan"="Tài khoản";
+"CaiDat"="Cài đặt";
+"GioiThieu"="Giới thiệu";
+"LienHe"="Liên hệ";
+"TaxiTotNhat"="Taxi tốt nhất";
+"TaxiReNhat"="Taxi giá rẻ";
+"TaxiTeNhat"="Taxi tệ nhất";
+"ThongBaoChatLuong"="Chất lượng được đánh giá theo người bình chọn";
+"TaxiTot" = "Taxi Tốt";
+"TaxiRe" = "Taxi Rẻ";
+
+"restartTitle" = "Alert !";
+"restart" = "The application will be closed, please reopen to receive the change!";
+"close" = "OK";
+"cancel" = "Cancel";
+"4cho" = "\t\t  4 Chỗ";
+"7cho" = "7 Chỗ";
+"giamocua" = "Mở cửa: ";
+"giadau" = "25 KM đầu: ";
+"giasau" = "25 KM sau: ";
+"btnSendDataMap" = "Gửi địa chỉ tới map";
+"btnDangXuat" = "Đăng Xuất";
+"btnupdatainfo" = "Sửa Thông Tin";
+"vuiLongNhapHoTen" = "Vui lòng nhập họ tên!";
+"vuiLongNhapsdt" = "Vui lòng nhập số điện thoại!";
+"vuiLongNhapEmail" = "Vui long nhập email!";
+"vuiLongNhapDiaChi" = "Vui lòng nhập địa chỉ!";
+"Pricedetails" = "CHI TIẾT GIÁ";
